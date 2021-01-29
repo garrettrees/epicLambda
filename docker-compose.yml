@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  lambda:
+    build: .
+    environment:
+      - PYTHONPATH=/var/task/src:/var/task/lib
+      - PATH=/var/task/bin
+      - AWS_BUCKET_NAME='epicreservations'
+      - AWS_ACCESS_KEY_ID='AKIA2PTUR4DTNWH6Q5WG'
+      - AWS_SECRET_ACCESS_KEY='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'
+    volumes:
+      - ./src/:/var/task/src/
