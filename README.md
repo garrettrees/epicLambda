@@ -5,6 +5,8 @@ Modified project & added script to make ski/snowboard reservations to Park City.
 ## NOTES: 
 Some files in this project are leftovers from the 21 buttons project and are not used by this one.  
 This project uses Python 3.7 instead of Python 3.6 so be sure to specify Python 3.7 in your Lambda Runtime Settings in AWS.
+You'll need to enter your Epic account credentials in main.py.
+You'll also need to enter your AWS Access Key info in docker-compose.yml.  **Be careful not to expose your AWS Access Key info to the world!!** 
 
 ----------------------------------
 ## PyChromeless
