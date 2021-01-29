@@ -1,4 +1,13 @@
-# PyChromeless
+# Modified "PyChromeless" Project
+
+Modified project & added script to make ski/snowboard reservations to Park City. Follow the instructions on the medium article (21 buttons project) linked below to get this project working in AWS.  
+
+## NOTES: 
+Some files in this project are leftovers from the 21 buttons project and are not used by this one.  
+This project uses Python 3.7 instead of Python 3.6 so be sure to specify Python 3.7 in your Lambda Runtime Settings in AWS.
+
+----------------------------------
+## PyChromeless
 
 Python (selenium) Lambda Chromium Automation
 
