@@ -6,8 +6,8 @@ services:
     environment:
       - PYTHONPATH=/var/task/src:/var/task/lib
       - PATH=/var/task/bin
-      - AWS_BUCKET_NAME='epicreservations'
-      - AWS_ACCESS_KEY_ID='AKIA2PTUR4DTNWH6Q5WG'
-      - AWS_SECRET_ACCESS_KEY='+PpOdNJ88BnB1NQbg1BShVvX2I7K37j8SDaF5QS9'
+      - AWS_BUCKET_NAME='YOUR_BUCKET_NAME'
+      - AWS_ACCESS_KEY_ID='YOUR_ACCESS_KEY_ID'
+      - AWS_SECRET_ACCESS_KEY='+YOUR_SECRET_ACCESS_KEY'
     volumes:
       - ./src/:/var/task/src/
