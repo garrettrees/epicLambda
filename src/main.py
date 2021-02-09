@@ -29,8 +29,8 @@ def make_reservation(event=None, context=None):
     driver = webdriver.Chrome(chrome_options=chrome_options)
 
     # Set your username, password & target reservation day (of the current month) before running script
-    username = "greesy@gmail.com"  # email address
-    password = "R!d3-0r-d!3"
+    username = ""  # email address
+    password = ""
     today = datetime.datetime.now().strftime("%d")
     reservation_day = str(int(today) + 7)
     #driver = webdriver.Chrome("/Users/garrettrees/chromedriver")
