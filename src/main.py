@@ -56,6 +56,7 @@ def make_reservation(event=None, context=None):
     '''
 
     # Set your username, password & target reservation day (of the current month) before running script
+<<<<<<< HEAD
     user = 'garrett'
     if user == 'byron':
         username = ""  # email address
@@ -69,6 +70,14 @@ def make_reservation(event=None, context=None):
         user_xpath = "/html/body/div[3]/div/div[2]/div[2]/div/div/div/div[3]/div[2]/div[2]/div[1]/div[2]/div/ul/li/span/label/span"
         #username = get_parameters('epic_username_garrett')
         #password = get_parameters('epic_password_garrett')
+=======
+    username = ""  # email address
+    password = ""
+    today = datetime.datetime.now().strftime("%d")
+    reservation_day = str(int(today) + 7)
+    #driver = webdriver.Chrome("/Users/garrettrees/chromedriver")
+    current_month = datetime.datetime.now().strftime("%m")
+>>>>>>> 33c7f7592f2a0d8f1df6c1e91f1e594354e04a7b
 
     # Set implicit wait for the life of the driver object
     # Set implicit wait for the life of the driver object
